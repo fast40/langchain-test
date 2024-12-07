@@ -1,0 +1,78 @@
+goal:
+user prompt -> completed application.
+
+should the machine take in the previous code as an input?
+- maybe not. maybe it should rewrite the entire thing every time.
+- It should be given the original prompt though. And the shortcomings of the app.
+- What if there's just some idiotic error that's easy to fix? Like a typo.
+        - then rewriting it seems like a waste.
+        - would rather re-generate just the problem.
+
+maybe can try both strategies.
+I wonder what coding on high temp looks like.
+
+How to make
+
+what happened?
+- I got distracted by other things and lost focus. I need to refocus.
+
+
+
+What is the goal of what I'm making?
+- make research easier
+What problem does it solve?
+- certain research is infeasible to do and is not done. Also existing research takes too long.
+Who will buy it?
+
+
+
+Why don't I solve individual problems first?
+- I want to create an AI that can do anything. I want to truly free researchers' minds. I don't want to obsess over a bunch of garbage sliders and buttons and create specific things. I want to have an llm interface. LLM interfaces are the future. LLMs will use them too in the future.
+
+
+This is one of the first pieces of software that truly just does what you want. I maintain that this is valuable. short term it's worse. why?
+        - it takes longer to get good at the main things that matter.
+
+
+What I'm creating is a super general thing. Super general things are usually inferior to specific things because they take WAY longer to build and result in the company going out of business before they actually make any product. I on the other hand have infinite runway.
+
+
+1. this type of product is the future
+2. this type of product is objectively better
+3. i have infinite (not really. but long!) runway
+4. i am the ideal person to do this, and the world will accept and love it.
+
+
+
+ok so how do I actually do this?
+I think I like oneshotting the whole thing.
+
+
+What is in the training data?
+- lots of entire projects on github
+
+humans write code in little bunches. We look at files etc. llms have seen little of this. they have not seen a lot of examples where they generate a code change based on looking at a project and a prompt. They have seen the code files themselves.
+
+
+Is there a possible prompt to generate any project in one shot?
+- This is the big question. If so, I just have to produce the prompt.
+- How can I figure this out?
+- use logic
+        - what do I know?
+- test it
+- It is more likely to be in the set of possible outputs if there is a high temp and we generate a lot of things and test to see if they all work.
+
+- I think I'll assume yes.
+
+
+
+Yeah so if you put the code in the prompt you can definitely get the model to output what you want.
+So there is obviously a prompt that will generate the right output.
+The question is now can you generate that prompt.
+        - in other words, is there a path or workflow that gets you to where you want.
+
+That's a good question.
+
+
+
+A learning app where the user chats with a large language model that teaches them linear algebra.
